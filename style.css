@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;
+    margin: 0;            
+    background-color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;         
+    background-color: wheat;
+}
+.rootBox{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.buttons{
+    width: 10vw;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 1px 9px 2px 0px rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 20px;
+}
+.rollButton{
+    background-color: blue;
+    width: 15vw;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 20px;
+}
+.rollButton:hover{
+    background-color: brown;
+}
